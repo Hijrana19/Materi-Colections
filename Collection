@@ -1,0 +1,54 @@
+#Collection
+List = []
+for i in range (0,4):
+    List.append (i)
+print (List)
+
+Set = {2,4,7,3,1}
+for i in Set:
+    print (Set)
+
+Tuples = (2,3,1,4)
+for i in Tuples:
+    print (Tuples)
+ 
+Dictionary = {1:'Teknik',2:'Hukum',3:'Politik'}
+for i in Dictionary:
+    print (Dictionary)
+print ('\n')
+
+print ('Collections List')
+List = ['Teknik','Informatika',2021,True]
+print (List)
+List [2] = 2022
+print (List)
+del List [3]
+print (List)
+List.append (2023)
+print (List)
+
+print ('Collections Set')
+Set = {2,4,5,6,1}
+print (Set)
+#Tipe Set Tidak Dapat Melakukan Pengaupdatan elemen
+#Tipe Set Tidak Dapat Melakukan Penghapusan elemen
+#Tipe Set Tidak Dapat Melakukan Penambahan elemen
+
+print ('Collections TUples')
+Tuples = ('Teknik',2021,2022)
+print (Tuples)
+#Tipe Tuples Tidak Dapat Melakukan Pengaupdatan elemen
+#Tipe Tuples Tidak Dapat Melakukan Penghapusan elemen
+#Tipe Tuples Tidak Dapat Melakukan Penambahan elemen
+
+print ('Collections Dictionary')
+Dictionary = {1:'Teknik Informatika',2:'Teknik Sipil',3:'Teknik PWK'}
+print (Dictionary)
+Dictionary [3] = 'Hukum'
+print (Dictionary)
+del Dictionary [3]
+print (Dictionary)
+Dictionary [4] = 'Politik'
+print (Dictionary)
+
+
